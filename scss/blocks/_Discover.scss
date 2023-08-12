@@ -1,3 +1,187 @@
-.discover{
-    width: 1520px;
+.discover {
+    .header {
+        width: 1440px;
+        height: 550px;
+        border: 1px solid;
+        margin: 0 auto;
+        Background:
+            #1C1C28;
+        align-items: center;
+
+        .header_nav {
+            width: 100%;
+            height: 15%;
+            border: 1px solid;
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+            .nav__list {
+                list-style-type: none;
+                display: flex;
+                gap: 80px;
+                color: #FFFFFF;
+                align-items: center;
+
+                button {
+                    width: Hug (145px);
+                    height: Hug (48px);
+                    padding: 12px 14px 12px 14px;
+                    border-radius: 7.289999961853027px;
+                    gap: 10px;
+                    background: #6966FF;
+
+
+                }
+            }
+        }
+
+        .header_hero {
+            width: 808px;
+            height: 144px;
+            border: 1px solid;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 110px;
+
+            p {
+
+                font-family: Circular Std;
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: -0.022em;
+                text-align: center;
+                color: azure;
+
+            }
+
+            b {
+                color: azure;
+            }
+        }
+
+        .header_text {
+            width: 395px;
+            height: 48px;
+            list-style: none;
+            display: flex;
+            color: aliceblue;
+            gap: 80px;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+    }
+
+    .info {
+        width: 1440px;
+        height: 1900px;
+        Background:
+            #1C1C28;
+        margin: 0 auto;
+       
+
+        .box {
+            width: 808px;
+            height: 168px;
+            border: 1px solid;
+            border-radius: 8px;
+            display: flex;
+            background: #393953;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+            
+           
+            button{
+            width: 85px;
+            height: 32px;
+            padding: 4px 16px 4px 16px;
+            border-radius: 100px;
+            border: 1px;
+            gap: 16px;
+           
+
+            }
+            .boxes{
+                width: 643px;
+                height: 120px;
+                border:  1px solid;
+                
+
+                b{
+                    font-size: 24px;
+                    color : #FFFFFF;
+                    ;
+                }
+                color: #fff;
+               
+            }
+            .comp{
+                width: 105px;
+                height: 32px;
+                background: #16B57F;
+
+            }
+        }   .box_open{
+                  
+            background: rgb(77, 77, 194);
+
+               }
+       
+               section{
+                width: 1440px;
+                height: 416px;
+                margin: 0 auto;
+                border: 1px solid;
+                Background: #1C1C28;
+                
+               
+                .content{
+                    width: 1224px;
+                    height: 256px;
+                    border-radius: 8px;
+                    background: #6966FF;
+                    margin: 0 auto;
+                    text-align: center;
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                    .create{
+                        font-size: 40px;
+                        color: #fff;
+                    }
+                    button{
+                        width:  169px;
+                        height: 48px;
+                        padding: 12px 16px 12px 16px;
+                        border-radius: 7.289999961853027px;
+                       border-radius: 8px;
+
+                    }
+
+                }
+               }
+              
+    }
+    footer{
+        width: 1440px;
+        height: 180px;
+        Background: #1C1C28;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer_menu{
+            list-style: none;
+            display: flex;
+            color: #fff;
+            gap: 20px;
+            align-items: center;
+        }
+
+    }
+   
+
 }
