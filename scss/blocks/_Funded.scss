@@ -1,3 +1,529 @@
-.funded{
-    width: 1520px;
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.container {
+  margin: 0 auto;
+}
+
+.funded {
+  width: 1520px;
+  height: 2848px;
+  background: #232334;
+  .funded-nav {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    .funded-nav-logo {
+      margin-left: 32px;
+      width: 20%;
+      height: 100%;
+    }
+    .funded-nav-list {
+      margin-left: 40px;
+      display: flex;
+      width: 80%;
+      height: 100%;
+      .nav-btn-1 {
+        display: none;
+        margin-top: 12px;
+        width: 66px;
+        height: 40px;
+        border-radius: 7.29px;
+        background: #6966ff;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.154px;
+      }
+      img {
+        display: none;
+      }
+      ul {
+        margin-left: 100px;
+        margin-top: 24px;
+        display: flex;
+        list-style: none;
+        column-gap: 32px;
+        li {
+          color: #c8c7d8;
+          font-family: "Space Mono", monospace;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+      .nav-btn {
+        margin-left: 12px;
+        margin-top: 10px;
+        width: 141px;
+        height: 48px;
+        border-radius: 7.29px;
+        background: #6966ff;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-family: Circular Std;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+      }
+    }
+  }
+  .funded-grants {
+    margin-top: 110px;
+    width: 100%;
+    height: 250px;
+    h1 {
+      color: #fff;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 72px;
+      letter-spacing: 1.32px;
+    }
+    .menu {
+      display: flex;
+      margin-top: 52px;
+      width: 100%;
+      height: 50px;
+      .all {
+        margin-left: 108px;
+        width: 52px;
+        height: 48px;
+        border-radius: 7.29px;
+        background: #393953;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+      }
+      h4 {
+        margin-left: 40px;
+        margin-top: 12px;
+        color: #c8c7d8;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+        span {
+          display: none;
+        }
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        li {
+          margin-left: 40px;
+          margin-top: 12px;
+          color: #c8c7d8;
+          text-align: center;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.176px;
+        }
+      }
+    }
+    .switch {
+      display: flex;
+      img {
+        margin-top: 15px;
+        margin-left: 108px;
+        width: 40px;
+        height: 20px;
+      }
+      h4 {
+        margin-left: 19px;
+        margin-top: 12px;
+        color: #c8c7d8;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+      }
+    }
+    .cards {
+      margin-top: 104px;
+      padding-left: 108px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 1600px;
+      gap: 24px;
+      .card1 {
+        padding: 24px;
+        width: 344px;
+        height: 512px;
+        background-color: #393953;
+        border-radius: 16px;
+        p {
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h3 {
+          color: #fff;
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px;
+          letter-spacing: 1.456px;
+        }
+        h5 {
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h6 {
+          display: none;
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h4 {
+          color: #fff;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 350;
+          line-height: 24px;
+          letter-spacing: -0.176px;
+        }
+        img {
+          margin-top: 218px;
+          border-radius: 100px;
+        }
+      }
+      .card2 {
+        padding: 24px;
+        width: 344px;
+        height: 512px;
+        background-color: #393953;
+        border-radius: 16px;
+        .card2-top {
+          margin-top: -24px;
+          margin-left: -24px;
+          width: 344px;
+          height: 178.889px;
+          background-color: #2d2d3d;
+          border-radius: 16px;
+        }
+        p {
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h3 {
+          color: #fff;
+          font-family: "Roboto", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px;
+          letter-spacing: 1.456px;
+        }
+        h5 {
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h6 {
+          display: none;
+          color: #a59eba;
+          font-family: "Space Mono", monospace;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        h4 {
+          color: #fff;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 350;
+          line-height: 24px;
+          letter-spacing: -0.176px;
+        }
+        img {
+          margin-top: 60px;
+          border-radius: 100px;
+        }
+      }
+    }
+  }
+  .let {
+    padding-top: 40px;
+    margin-top: 1900px;
+    margin-left: 35px;
+    width: 1224px;
+    height: 248px;
+    border-radius: 16px;
+    background: linear-gradient(
+      322deg,
+      #6966ff 0%,
+      rgba(105, 102, 255, 0.36) 100%
+    );
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+    h4 {
+      color: #fff;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 24px;
+      letter-spacing: -0.252px;
+    }
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 1.88px;
+    }
+    .apply {
+      margin-top: 40px;
+      margin-left: 540px;
+      width: 169px;
+      height: 48px;
+      border-radius: 7.29px;
+      background: #fff;
+      border: none;
+      color: #6966ff;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 1px;
+    }
+  }
+  .footer {
+    margin-top: 160px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    .footer-left {
+      display: flex;
+      width: 850px;
+      img {
+        margin-top: 10px;
+        margin-left: 108px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        column-gap: 32px;
+        li {
+          margin-top: 25px;
+          color: #c8c7d8;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          span {
+            margin-left: -100px;
+          }
+        }
+      }
+    }
+    .footer-right {
+      margin-left: 320px;
+      display: flex;
+      width: 100px;
+      height: 100%;
+      column-gap: 32px;
+      img {
+        margin-top: 20px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .funded {
+    width: 450px;
+    height: 6700px;
+    .funded-nav {
+      margin-left: -10px;
+      width: 420px;
+      .funded-nav-logo {
+        margin-left: 20px;
+        width: 110px;
+        img {
+          margin-top: 16px;
+          width: 74px;
+          height: 43px;
+        }
+      }
+      .funded-nav-list {
+        margin-left: 140px;
+        width: 120px;
+        display: flex;
+        .nav-btn-1 {
+          margin-top: 15px;
+          width: 66px;
+          height: 40px;
+          display: block;
+          text-align: center;
+        }
+        img {
+          display: flex;
+          margin-top: 25px;
+          margin-left: 28px;
+          width: 20px;
+          height: 20px;
+        }
+        ul {
+          display: none;
+          li {
+            display: none;
+          }
+        }
+        .nav-btn {
+          display: none;
+        }
+      }
+    }
+    .funded-grants {
+      margin-top: 44px;
+      width: 420px;
+      margin-left: -10px;
+      h1 {
+        font-size: 32px;
+      }
+      .menu {
+        width: 420px;
+        ul {
+          display: none;
+        }
+        .all {
+          margin-left: 24px;
+          width: 50px;
+          height: 40px;
+        }
+        h4 {
+          display: flex;
+          margin-top: 10px;
+          span {
+            margin-top: 3px;
+            display: flex;
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+      .switch {
+        margin-left: -110px;
+      }
+      .cards {
+        width: 420px;
+        height: 5000px;
+        .card1 {
+          margin-left: -70px;
+        }
+        .card2 {
+          margin-left: -70px;
+        }
+      }
+    }
+    .let {
+      margin-top: 5200px;
+      margin-left: 10px;
+      width: 390px;
+      height: 306px;
+      h4 {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 24px;
+        font-style: normal;
+      }
+      .apply {
+        margin-left: 80px;
+        width: 240px;
+        height: 50px;
+      }
+    }
+    .footer {
+      display: block;
+      width: 412px;
+      height: 608px;
+      .footer-left {
+        width: 300px;
+        height: 500px;
+        display: block;
+        img {
+          margin-left: 30px;
+          width: 59px;
+          height: 59px;
+        }
+        ul {
+          display: block;
+          li {
+            font-size: 14px;
+            span > img {
+                margin-top: -6px;
+              margin-left: 110px;
+              width: 12px;
+              height: 12px;
+            }
+          }
+        }
+      }
+      .footer-right {
+        margin-top: -170px;
+        margin-left: 30px;
+        display: block;
+        width: 300px;
+        height: 30px;
+      }
+    }
+  }
 }
